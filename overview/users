@@ -1,0 +1,8 @@
+USERS
+
+Users can be classified as individuals in a group that have access to limited services setup by the root account in AWS.
+These users can be in different groups serving different purposes,can bein a single group to carry out just one purpose
+or can standalone and still carry out a given purpose in an organisation.Users have policies that they follow, We will 
+talk about policies in the next lines,but for now see policies as rules.We have users in a group simply to use services
+in our AWS account.
+
