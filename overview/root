@@ -1,0 +1,12 @@
+When we create an AWS account,the root account is created by default. It is a good practice to use the root account to setup other IAM users.
+Most companies or individuals prefer to use this account as an administrator account. 
+The administrator account would be incharge of handling:
+
+Creation of users
+Assigning policies or permissions to users
+Granting access to certain AWS services
+Creating password policies
+Creating groups and organization and many more…
+
+As an administrator,you are to ensure that the root account serves only the above listed purposes. It is safer to carry out other task as normal users created by the
+root account. Activities such as lambda-function,ec2-insances should be performed on normal users account and not on the root account.
